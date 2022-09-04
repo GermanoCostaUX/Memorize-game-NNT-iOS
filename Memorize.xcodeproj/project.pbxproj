@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7308A88428B6B357004C8676 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7308A88328B6B357004C8676 /* MemoryGame.swift */; };
+		7308A88628B6B5EA004C8676 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7308A88528B6B5EA004C8676 /* EmojiMemoryGame.swift */; };
 		7367310828B27799007D3A9F /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367310728B27799007D3A9F /* MemorizeApp.swift */; };
-		7367310A28B27799007D3A9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367310928B27799007D3A9F /* ContentView.swift */; };
+		7367310A28B27799007D3A9F /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367310928B27799007D3A9F /* EmojiMemoryGameView.swift */; };
 		7367310C28B2779A007D3A9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7367310B28B2779A007D3A9F /* Assets.xcassets */; };
 		7367310F28B2779A007D3A9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7367310E28B2779A007D3A9F /* Preview Assets.xcassets */; };
+		73CABB8528C29A1700D32906 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CABB8428C29A1700D32906 /* AspectVGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7308A88328B6B357004C8676 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = SOURCE_ROOT; };
+		7308A88528B6B5EA004C8676 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		7367310428B27799007D3A9F /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7367310728B27799007D3A9F /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
-		7367310928B27799007D3A9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7367310928B27799007D3A9F /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		7367310B28B2779A007D3A9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7367310E28B2779A007D3A9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73CABB8428C29A1700D32906 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				7367310728B27799007D3A9F /* MemorizeApp.swift */,
-				7367310928B27799007D3A9F /* ContentView.swift */,
+				7367310928B27799007D3A9F /* EmojiMemoryGameView.swift */,
+				7308A88328B6B357004C8676 /* MemoryGame.swift */,
+				7308A88528B6B5EA004C8676 /* EmojiMemoryGame.swift */,
 				7367310B28B2779A007D3A9F /* Assets.xcassets */,
 				7367310D28B2779A007D3A9F /* Preview Content */,
+				73CABB8428C29A1700D32906 /* AspectVGrid.swift */,
 			);
 			path = Memorize;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7367310A28B27799007D3A9F /* ContentView.swift in Sources */,
+				7308A88428B6B357004C8676 /* MemoryGame.swift in Sources */,
+				7367310A28B27799007D3A9F /* EmojiMemoryGameView.swift in Sources */,
 				7367310828B27799007D3A9F /* MemorizeApp.swift in Sources */,
+				73CABB8528C29A1700D32906 /* AspectVGrid.swift in Sources */,
+				7308A88628B6B5EA004C8676 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
